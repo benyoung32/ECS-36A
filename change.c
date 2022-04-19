@@ -3,7 +3,7 @@
 int main () {
     int money;
 
-    printf("Please enter the amount of money you wish to withdraw:");
+    printf("Please enter the amount of money you wish to withdraw: ");
     scanf("%d", &money);
     printf("You received %d hundred(s)\n", money / 100);
     printf("You received %d fifty(s)\n", (money % 100) / 50);
